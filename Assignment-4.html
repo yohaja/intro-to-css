@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment-4-chaining-selectors</title>
+
+        <style>
+            .avatar.proportioned {
+                width: 300px;
+                height: auto; 
+            }
+
+            .avatar.distorted {
+                width: 200px;
+                height: 400px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>This is using CSS internal method</h1>
+        <p> picture 1 showed has width 300 and height auto while picture has width 200 with height 2 times width size</p>
+        <div>
+            <img class="avatar proportioned" src="https://images.pexels.com/photos/4862571/pexels-photo-4862571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a father with his son on a dirt road">
+            <img class="avatar distorted" src="https://images.pexels.com/photos/5036347/pexels-photo-5036347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="woman in yellow turtleneck sweater">
+        </div>
+        <br> <br>
+        <div>
+            <h2> The original version</h2>
+                <img class="original-1" src="https://images.pexels.com/photos/4862571/pexels-photo-4862571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a father with his son on a dirt road">
+                <br>
+                <img class="original-2" src="https://images.pexels.com/photos/5036347/pexels-photo-5036347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="woman in yellow turtleneck sweater">
+            </div>
+        </div>
+    </body>
+</html>
